@@ -33,35 +33,46 @@ Functional scenarios for claim submission and processing
 User goals and acceptance criteria
 These artifacts support requirement validation and bridge business needs with solution design
 
+
 🗂️ Repository Folder Structure
-Project-Root/
-  README.md
+Project-Root/ \README.md
   SRD/                        # System Requirement Documents
     UseCases/                 # Use case documents
       example_usecase.md
+      
     UserStories/              # User story documents
       example_userstory.md
+      
     UAT/                      # User Acceptance Testing documents
       example_UAT_testplan.docx
+      
     ERDiagrams/               # Entity-Relationship diagrams
       example_ERdiagram.png
+      
     FlowCharts/               # Flow charts
       example_flowchart.png
+      
     SequenceDiagrams/         # Sequence diagrams
       example_sequence.png
+      
   DataMapping/                # Data mapping files
     example_mapping.xlsx
+    
   ExcelFiles/                 # Excel analysis and reports
     example_analysis.xlsx
+    
   VisioDiagrams/              # Visio workflow diagrams
     example_diagram.vsdx
+    
   Code/                       # Source code and scripts
     Java/                     # Java source code
       example_code.java
     tests/                    # Unit or functional test scripts
       example_test.java
+      
   Docs/                       # Additional documentation
     example_doc.md
+
 
 🧩 Key Deliverables
 Business Requirements Document (BRD)

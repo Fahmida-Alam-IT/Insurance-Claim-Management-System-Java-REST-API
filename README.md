@@ -1,20 +1,28 @@
-## Travel Insurance Claim System — Business Analysis Case Study
+## Travel Insurance Claim Management System
 
 ## 🧭 Project Overview
-The Travel Insurance Claim System project demonstrates end-to-end business analysis deliverables for a digital claims processing solution.
+The Travel Insurance Claim Management System allows customers to submit travel insurance claims online and track the claim status.
 
-The objective was to analyze business needs, define system requirements, and design supporting artifacts to improve efficiency, transparency, and the user experience of the claims lifecycle.
+## 🎯 Business Objectives / Goals 
+- Reduce claim processing time
+- Improve data accuracy and validation
+- Enhance reporting and analytics
+- Improve user experience for internal agents## Business Objectives
+- Faster claim processing
+- Improve customer experience
+- Reduce manual processing
+
+The objective was to analyze business needs, define system requirements, and design supporting artifacts to improve efficiency, transparency, and the user experience of the claims lifecycle
+
+## Actors
+- Customer
+- Claims Agent
+- Claims Manager
 
 Project Scenario
 Client: Mid-size Insurance Provider
 Project: Claims Processing System Enhancement
 The project aimed to improve the efficiency, accuracy, and user experience of the client’s claims processing platform. The initiative focuses on streamlining claim intake, automating validation rules, and enhancing reporting capabilities for business stakeholders.
-
-### 🎯 Business Goals
-- Reduce claim processing time
-- Improve data accuracy and validation
-- Enhance reporting and analytics
-- Improve user experience for internal agents
 
 ### 🧩 Scope of Work
 Gather and document business requirements (BRD)

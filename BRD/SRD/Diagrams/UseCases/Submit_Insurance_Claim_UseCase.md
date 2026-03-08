@@ -9,24 +9,24 @@
 ---
 
 ## Main Flow (Basic Path)
-1. Customer logs in to the travel insurance portal.  
-2. Customer navigates to the “Submit Claim” section.  
-3. Customer selects the type of claim (e.g., medical, trip cancellation, lost luggage).  
-4. Customer fills out the claim form with required details:  
+1. **Log in** – Customer logs in to the travel insurance portal.  
+2. **Navigate to Submit Claim** – Customer selects the “Submit Claim” section.  
+3. **Select Claim Type** – Customer chooses the type of claim (e.g., medical, trip cancellation, lost luggage).  
+4. **Fill Claim Form** – Customer provides required details:  
    - Policy number  
    - Date of incident  
    - Description of the incident  
    - Amount claimed  
-5. Customer uploads supporting documents (receipts, reports, proof of travel, etc.).  
-6. Customer reviews all information and submits the claim.  
-7. System generates a confirmation and a claim reference number.  
-8. Customer receives an email confirmation with the claim details and reference number.  
+5. **Upload Documents** – Customer attaches supporting documents (receipts, reports, proof of travel, etc.).  
+6. **Review & Submit** – Customer reviews all information and submits the claim.  
+7. **System Confirmation** – System generates a confirmation and a claim reference number.  
+8. **Email Notification** – Customer receives an email confirmation with claim details and reference number.  
 
 ---
 
 ## Alternative Flows
 **A1: Missing documents**  
-- If the customer fails to upload required documents, the system prompts to upload them before submission.  
+- If required documents are missing, the system prompts the customer to upload them before submission.  
 
 **A2: Invalid policy**  
 - If the policy number is invalid or expired, the system notifies the customer and prevents submission.  
@@ -49,18 +49,28 @@
 
 ---
 
-## Use Case Flow Diagram (Compact ASCII)
+## Use Case Flow Diagram (Enhanced Compact ASCII)
 
-Customer
+**Customer**
    |
    v
-[Log in] → [Navigate to Submit Claim] → [Select Claim Type] → [Fill Claim Form]
+[**Log in**] → [**Navigate to Submit Claim**] → [**Select Claim Type**] → [**Fill Claim Form**]
    |
    v
-[Upload Documents] ──> (Missing Docs?) ──> [Prompt to Upload] ──> [Fill Claim Form]
+[**Upload Documents**] ──> (**Missing Docs?**) ──> [**Prompt to Upload**] ──> [**Fill Claim Form**]
    |
    v
-[Review & Submit] → [System Generates Claim Reference] → [Email Confirmation]
+[**Review & Submit**] → [**System Generates Claim Reference**] → [**Email Confirmation**]
+
+
+
+
+
+
+
+
+
+
 
 
 

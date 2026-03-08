@@ -49,33 +49,18 @@
 
 ---
 
-## Use Case Flow Diagram (ASCII)
+## Use Case Flow Diagram (Compact ASCII)
 
 Customer
    |
    v
-[Log in to Portal]
+[Log in] → [Navigate to Submit Claim] → [Select Claim Type] → [Fill Claim Form]
    |
    v
-[Navigate to Submit Claim]
+[Upload Documents] ──> (Missing Docs?) ──> [Prompt to Upload] ──> [Fill Claim Form]
    |
    v
-[Select Claim Type]
-   |
-   v
-[Fill Claim Form]
-   |
-   v
-[Upload Documents] ---> (Missing Docs?) ---> [Prompt to Upload] ---> [Fill Claim Form]
-   |
-   v
-[Review & Submit]
-   |
-   v
-[System Generates Claim Reference]
-   |
-   v
-[Email Confirmation to Customer]
+[Review & Submit] → [System Generates Claim Reference] → [Email Confirmation]
 
 
 

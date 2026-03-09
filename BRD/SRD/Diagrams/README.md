@@ -57,32 +57,43 @@ The system supports several main use cases.
 
 ## Repository Structure
 
-## Repository Structure
+## Repository Structure – Travel Insurance Claim System
 
 ```
 travel-insurance-claim-system
 │
-├── README.md
-├── BRD
+├── README.md                   # Main project overview
+├── LICENSE.md                  # Optional license
+│
+├── BRD                         # Business Requirements Documents
 │   ├── Business_Requirements.md
 │   │
-│   └── SRD
+│   └── SRD                     # System Requirements Documents
 │       ├── System_Requirements.md
 │       │
-│       └── Diagrams
-│           ├── README.md
+│       └── Diagrams             # System & Process Diagrams
+│           ├── README.md        # Diagrams folder overview
 │           ├── System_Overview.md
 │           ├── Claim_Process_Overview.md
 │           ├── System_Architecture.md
 │           └── Claim_Data_Model.md
 │
-│           └── UseCases
-│               ├── README.md
+│           └── UseCases          # Use Case documentation
+│               ├── README.md      # Index of all Use Cases
 │               ├── Submit_Insurance_Claim_UseCase.md
 │               ├── Register_Create_Account.md
 │               ├── View_Policy_Details.md
 │               ├── Upload_Claim_Documents.md
 │               └── Approve_Process_Claims.md
+│
+├── Screenshots                 # Optional screenshots of UI or flow
+│   └── example_screenshot.png
+│
+├── Tests                       # Optional test plans or test cases
+│   └── ClaimSubmissionTest.md
+│
+└── docs                        # Optional additional documentation
+    └── README.md
 ```
 
 

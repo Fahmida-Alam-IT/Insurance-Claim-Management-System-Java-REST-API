@@ -4,9 +4,10 @@
 
 The diagram below illustrates the end-to-end process of submitting and processing a travel insurance claim:
 
-![Claim Processing Flow](SRD/Diagrams/claim_flow.png)
 
-![System Use Cases](SRD/Diagrams/use_cases.png)
+![Claims Process Flow](SRD/images/claim_flow.png)
+![Use Cases Diagram](SRD/images/use_cases.png)
+
 
 - **Claim Submission:** Customer submits a new claim.
 - **Validation:** System checks claim details.

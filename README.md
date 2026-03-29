@@ -4,7 +4,7 @@
 
 The diagram below illustrates the end-to-end process of submitting and processing a travel insurance claim:
 
-![Claim Processing Flow](BRD/SRD/Diagrams/claim_flow.png)
+![Claim Processing Flow](SRD/Diagrams/claim_flow.png)
 
 - **Claim Submission:** Customer submits a new claim.
 - **Validation:** System checks claim details.
@@ -18,7 +18,7 @@ The diagram below illustrates the end-to-end process of submitting and processin
 
 The use cases diagram shows the main actors and their interactions with the system:
 
-![System Use Cases](BRD/SRD/Diagrams/use_cases.png)
+![Claims Flow](SRD/Diagrams/Systems%20Diagram%20and%20Use%20case%20map%20%20Image.png)
 
 - **Customer:** Submit claim, upload documents, track status.
 - **Claims Agent:** Assess claims, request information, approve or deny claims.
@@ -77,7 +77,7 @@ The diagram below illustrates the end-to-end process of submitting and processin
 
 The use cases diagram shows the main actors and their interactions with the system:
 
-![System Use Cases](BRD/SRD/Diagrams/use_cases.png)
+![System Use Cases](SRD/Diagrams/Insurance claim flow and system use cases.png
 
 - **Customer:** Submit claim, upload documents, track status.
 - **Claims Agent:** Assess claims, request information, approve or deny claims.

@@ -1,7 +1,7 @@
-## Travel Insurance Claim Management System
+Travel Insurance Claim Management System
+🧭 Project Overview
 
-## 🧭 Project Overview
-The Travel Insurance Claim Management System allows customers to submit travel insurance claims online and track the claim status.
+The Travel Insurance Claim Management System allows customers to submit travel insurance claims online, upload supporting documents, and track the status of their claims. The system simplifies claim processing, reduces manual paperwork, and improves customer satisfaction.
 
 ---
 
@@ -17,6 +17,16 @@ The Travel Insurance Claims process follows these main steps:
 6. **Claim Review** – The claim is reviewed by the claims team.
 7. **Approved / Rejected** – The claim is either approved or rejected.
 8. **End** – The process is completed.
+
+Visual diagram available in Diagrams/claim_flow.png.
+
+⚙️ Features
+User authentication and secure login.
+Online claim submission with form validation.
+Document upload and verification system.
+Automated notifications for claim status updates.
+Admin interface for claim review and decision-making.
+Support for appeal process if a claim is denied.
 
  ```
 [Start]
@@ -108,12 +118,11 @@ These artifacts support requirement validation and bridge business needs with so
 
 ### 🗂️ Repository Folder Structure
 
-This repository is organized to clearly separate Business Requirements (BRD), System Requirements (SRD), diagrams, code, and supporting documentation.
+This repository is organized to clearly separate Business Requirements (BRD), System Requirements (SRD), Diagrams, UAT,Use Case, User Stories, Wireframe, code, and supporting documentation.
 
 Project-Root/
   README.md
 
-  
   ```
 BRD/ # Business Requirement Documents
 ├─ BRD_TravelInsuranceClaims.docx # Main BRD document
@@ -130,17 +139,11 @@ SRD/ # System Requirement Documents
 │ ├─ Flowcharts/ # Process flow diagrams
 │ ├─ Process Diagrams/ # End-to-end process diagrams
 │ ├─ UML Diagrams/ # Class, sequence, and other UML diagrams
-│ ├─ UseCases/ # Use case documents
-│ │ └─ UAT/ # User Acceptance Testing documents
-│ ├─ Wireframes_Mockups/ # Wireframe and UI mockup designs
-├─ ERDiagrams/ # Additional ER diagrams
-├─ FlowCharts/ # Additional flowcharts
 ├─ SequenceDiagrams/ # Sequence diagrams
 ├─ UAT/ # User acceptance testing documentation
 ├─ UseCases/ # Detailed use case documents
 ├─ UserStories/ # User story documents
 └─ Wireframes/ # Wireframe designs
-
 Docs/ # Supporting documents
 ├─ Master_Index_Diagrams_2026-02-25.rtf # Index of diagrams
 
@@ -148,6 +151,7 @@ Code/ # Source code (if applicable)
 DataMapping/ # Data mapping files
 ExcelFiles/ # Excel sheets used in analysis or planning
 VisioDiagrams/ # Microsoft Visio diagrams
+
 ```
 
 ---
@@ -166,7 +170,11 @@ Automated status tracking
 Claims adjudication workflow
 Notification and communication module
 
-### 🛠️ Tools & Techniques
+### 🛠 Technologies Used
+Programming Language: Python / JavaScript (depending on implementation)
+Database: MySQL / PostgreSQL
+Frontend:  / HTML, CSS
+Tools: visio (for diagrams), GitHub (version control)
 Microsoft Excel → Analysis, data mapping, tracking, and documentation support
 
 Microsoft Visio → Process, ER, and sequence diagrams
@@ -190,6 +198,7 @@ Optimized data management: Designed ER diagrams and data mapping documents ensur
 Accelerated stakeholder alignment: Visual artifacts (flowcharts, sequence diagrams, wireframes) facilitated faster approvals, reducing feedback cycles by 25%
 
 ### How to Use This Repository
+
 This repository is organized to clearly separate business analysis artifacts, documentation, and supporting files. Use the guidelines below to navigate and maintain the project.
 
 ### 📁 SRD (System Requirement Documents)
@@ -217,8 +226,31 @@ Java → Supporting or sample code
 
 tests → Unit or functional test scripts
 
-### 📁 Docs
 
+🚀 How to Run
+
+Clone the repository:
+
+git clone https://github.com/Fahmida-Alam-IT/travel-insurance-claim-system.git
+
+Navigate to the project folder:
+
+cd travel-insurance-claim-system
+
+Install dependencies (if any):
+
+pip install -r requirements.txt   # for Python
+
+Run the application:
+
+python src/main.py
+Open your browser and follow the UI instructions to submit and track claims.
+
+
+### 📁 📄 Documentation
+BRD – Business requirements: BRD/Travel_Insurance_BRD.md
+SRD – System requirements: SRD/Travel_Insurance_SRD.md
+Diagrams – Flowcharts and process visuals: Diagrams/claim_flow.png
 General supporting documentation such as:
 Project notes
 Guidelines
@@ -228,11 +260,6 @@ Reference materials
 This project demonstrates the ability to translate business needs into structured requirements and visual artifacts that support solution delivery and stakeholder alignment.
 
 
-### 👤 Author
-Fahmida Alam, CBAP
-Business Systems Analyst
-
-
-
-
-
+### 👩‍💻 Author
+Fahmida Alam, CBAP – Business Systems Analyst & Former Software Developer
+Bilingual IT Professional with experience in FinTech (Insurance) and the full software development lifecycle.

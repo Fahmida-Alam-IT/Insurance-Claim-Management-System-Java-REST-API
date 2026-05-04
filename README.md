@@ -1,14 +1,18 @@
-## Travel Insurance Claim Management System
-🧭 Project Overview
+### Insurance Claim Management System (Java + REST API)
+🧠 Overview  
 
-The Travel Insurance Claim Management System allows customers to submit travel insurance claims online, upload supporting documents, and track the status of their claims. The system simplifies claim processing, reduces manual paperwork, and improves customer satisfaction.
+The Insurance Claim Management System is a backend system design project that simulates an end-to-end insurance claim workflow. It demonstrates the translation of business requirements into structured system design using Java and REST API principles.
+
+The system models a real-world insurance claim lifecycle, including submission, validation, assessment, decision-making, and closure through a structured workflow.
+
+This project reflects the ability to bridge business systems analysis and technical implementation by converting business requirements into system behavior and backend design. 
 
 ---
 
 
 ### 📊 Claims Process Flow
 
-The diagram below illustrates the end-to-end process of submitting and processing a travel insurance claim:
+The diagram below illustrates the end-to-end process of submitting and processing an insurance claim:
 
 ![Claim Processing Flow](images/claim_flow.png)
 
@@ -18,7 +22,7 @@ The diagram below illustrates the end-to-end process of submitting and processin
 - **Decision:** Claim is approved or rejected.
 - **Payment & Closure:** Approved claims are paid, and the process is closed.
 
-The Travel Insurance Claims process follows these main steps:
+The Insurance Claims process follows these main steps:
 
 1. **Start** – The user begins the claims process.
 2. **Login** – The user logs into the system.
@@ -75,16 +79,16 @@ Support for appeal process if a claim is denied.
 
 ---
 
-## 🎯 Business Objectives / Goals 
-- Reduce claim processing time
-- Improve data accuracy and validation
-- Enhance reporting and analytics
-- Improve user experience for internal agents## Business Objectives
-- Faster claim processing
-- Improve customer experience
-- Reduce manual processing
+## 🎯 Business Problem
 
-The objective was to analyze business needs, define system requirements, and design supporting artifacts to improve efficiency, transparency, and the user experience of the claims lifecycle
+Insurance claim processing often involves manual tracking, inconsistent workflows, and multiple stakeholders, leading to delays and lack of transparency.
+
+This system demonstrates how a structured digital workflow can improve:
+
+Claim processing consistency
+Status visibility across stages
+Reduction of manual handling errors
+Alignment between business rules and system behavior
 
 ---
 ## Actors
@@ -111,18 +115,6 @@ Data Mapping documents
 Process and System Diagrams
 UAT Test Plans and supporting materials
 
-### 🧩 Business Problem Statement
-Insurance claim processing is often slowed by manual workflows, fragmented communication, and limited visibility, leading to:
-Longer processing times
-Increased operational costs
-Poor customer experience
-Project Goal: Analyze current challenges and define a structured solution that improves efficiency, enhances transparency, and supports scalable digital processing.
-
-### Business Objectives:
-Streamline claim submission and processing
-Reduce manual intervention and processing time
-Improve communication between claimants and insurers
-Provide clear audit trails and reporting capabilities
 
 ### 🧑‍💼 My Role
 Business Systems Analyst
@@ -196,7 +188,9 @@ Claims adjudication workflow
 Notification and communication module
 
 ### 🛠 Technologies Used
-Programming Language: Python / JavaScript (depending on implementation)
+Programming Language: Java (depending on implementation)
+REST API Architecture
+Backend System Design Concepts
 Database: MySQL / PostgreSQL
 Frontend:  / HTML, CSS
 Tools: visio (for diagrams), GitHub (version control)
@@ -281,23 +275,27 @@ Project notes
 Guidelines
 Reference materials
 
-### 📈 Outcome
-This project demonstrates the ability to translate business needs into structured requirements and visual artifacts that support solution delivery and stakeholder alignment.
+📊 Key Outcomes
+Converting business requirements into system design
+Understanding REST-based backend communication
+Designing structured enterprise-style workflows
+Bridging business analysis and technical implementation
 
 
-### 👩‍💻 Author
+👤 Author
+Fahmida Alam
+Business Systems Analyst | Java & REST API Systems | Agile Delivery | CBAP®
 
-<table>
-<tr>
-<td width="150">
-<img src="images/profile.png" width="120" style="border-radius:50%;" />
-</td>
-<td>
 
-**Fahmida Alam, CBAP**  
-Fahmida Alam, CBAP – Business Systems Analyst & Former Software Developer.
-Bilingual IT Professional with experience in FinTech (insurance), Telecommunications, Pension Fund, Energy (Oil & Gas), Aerospace industries and full SDLC.
 
-</td>
-</tr>
-</table>
+
+
+
+
+
+
+
+
+
+
+
